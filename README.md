@@ -1,6 +1,6 @@
 # Type your QR Code!
 
-Un'applicazione per generare QR code in tempo reale, disponibile sia come applicazione desktop con Pygame che come web app 
+Un'applicazione per generare QR code in tempo reale, disponibile sia come applicazione desktop con Pygame che come web app.
 
 ## Caratteristiche
 
