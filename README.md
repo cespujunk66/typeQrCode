@@ -61,9 +61,7 @@ type-your-qr-code/
 ├── README.md
 ├── .gitignore
 ├── qrgen.py              # Versione desktop con Pygame
-├── qrgen.html            # Versione web
-└── assets/
-    └── screenshot.png    # Screenshot dell'app
+└── qrgen.html            # Versione web
 ```
 
 ## Librerie Utilizzate
@@ -77,29 +75,6 @@ type-your-qr-code/
 - **QRCode.js** - Generazione QR code JavaScript
 - **html2canvas** - Conversione elemento HTML a immagine
 
-## Come Iniziare
-
-### Desktop
-```bash
-# Clona il repository
-git clone https://github.com/tuonome/type-your-qr-code.git
-cd type-your-qr-code
-
-# Installa le dipendenze
-pip install pygame qrcode[pil]
-
-# Esegui l'app
-python qrgen.py
-```
-
-### Web
-```bash
-# Clona il repository
-git clone https://github.com/tuonome/type-your-qr-code.git
-
-# Apri il file nel browser
-open qrgen.html
-```
 
 ## Utilizzo
 
@@ -132,33 +107,6 @@ background-color: #f8f9fa;  /* Sfondo */
 background-color: #1f73db;  /* Button */
 ```
 
-## Browser Supportati (Web)
-
-- Chrome/Chromium (v90+)
-- Firefox (v88+)
-- Safari (v14+)
-- Edge (v90+)
-
-## Mobile
-
-L'app web è completamente responsive e testata su:
-- iPhone/iPad
-- Android devices
-- Tablet
-
-## Licenza
-
-MIT License - vedi LICENSE per dettagli
-
-## Contributi
-
-I contributi sono benvenuti! Per modifiche sostanziali:
-
-1. Fai un fork del repository
-2. Crea un branch per la tua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit i tuoi cambiamenti (`git commit -m 'Add some AmazingFeature'`)
-4. Push al branch (`git push origin feature/AmazingFeature`)
-5. Apri una Pull Request
 
 ## Autore
 
@@ -172,7 +120,4 @@ Per problemi o suggerimenti, apri un issue su GitHub.
 
 - [ ] Tema scuro (dark mode)
 - [ ] Personalizzazione colori QR code
-- [ ] Cronologia QR code generati
 - [ ] Condivisione direttamente da web
-- [ ] Lettura QR code (scanner)
-- [ ] Versione mobile app (React Native)
